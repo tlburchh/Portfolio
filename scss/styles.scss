@@ -48,6 +48,9 @@ $border: #dcd9d9;
 $heading: #374054;
 $text: #74808a;
 
+//Define Icon colors
+$icon: rgb(2, 75, 2);
+
 /*
     ---------------------
     ----- 2. Mixins -----
@@ -277,13 +280,13 @@ footer {
 
     li {
         display: inline-block;
-        font-size: 1.75em;
+        font-size: 3em;
         list-style: none;
     }
 
     a {
         display: block;
-        color: $text;
+        color: $icon;
         padding: 10px;
 
         &:hover {
